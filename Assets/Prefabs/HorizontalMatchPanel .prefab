@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 161232248471742567}
   - component: {fileID: 833138974785238922}
   m_Layer: 5
-  m_Name: 'EnglandText '
+  m_Name: 'MatchText '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,7 +245,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 30, y: -75}
-  m_SizeDelta: {x: 735, y: 60}
+  m_SizeDelta: {x: 873.5858, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &161232248471742567
 CanvasRenderer:
