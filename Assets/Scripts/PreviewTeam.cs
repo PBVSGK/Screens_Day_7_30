@@ -9,8 +9,8 @@ using System.Collections.Generic;
 public class PlayerManager : MonoBehaviour
 {
     public List<GameObject> players;
-    public Image captainButton;
-    public Image viceCaptainButton;
+    public Image CImage;
+    public Image VCImage;
 
     void Start()
     {

@@ -2165,8 +2165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   players: []
-  captainButton: {fileID: 0}
-  viceCaptainButton: {fileID: 0}
+  CImage: {fileID: 0}
+  VCImage: {fileID: 0}
 --- !u!1001 &1309174859863576988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2178,6 +2178,10 @@ PrefabInstance:
     - target: {fileID: 1517950920978727494, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Name
       value: 'All-RounderPanel  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905027492788307514, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3583381863416567222, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Pivot.x
@@ -2261,11 +2265,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6528858402614027329, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8815654012787320382, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2288,6 +2292,10 @@ PrefabInstance:
     - target: {fileID: 1517950920978727494, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Name
       value: 'All-RounderPanel  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905027492788307514, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3583381863416567222, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Pivot.x
@@ -2371,11 +2379,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6528858402614027329, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8815654012787320382, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2398,6 +2406,10 @@ PrefabInstance:
     - target: {fileID: 1517950920978727494, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Name
       value: 'All-RounderPanel  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905027492788307514, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3583381863416567222, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Pivot.x
@@ -2481,11 +2493,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6528858402614027329, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8815654012787320382, guid: a724b493482d3fb46bf37a27a234b0a0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2505,6 +2517,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4113344089887575861}
     m_Modifications:
+    - target: {fileID: 2531249353056742681, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591999613809719397, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4591999613809719397, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
@@ -2591,6 +2611,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5399886041687906074, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583490223409799680, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9210107673471004299, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
@@ -2717,6 +2741,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1372767112028332181}
     m_Modifications:
+    - target: {fileID: 1843014681948047884, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229885862341344669, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7170862793131679703, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2797,6 +2829,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8018185855666885214, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9136681955300955301, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
       propertyPath: m_Name
       value: 'BowlerPanel    '
@@ -2819,6 +2855,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1372767112028332181}
     m_Modifications:
+    - target: {fileID: 1843014681948047884, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229885862341344669, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7170862793131679703, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2899,6 +2943,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8018185855666885214, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9136681955300955301, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
       propertyPath: m_Name
       value: 'BowlerPanel   '
@@ -2921,6 +2969,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3754042684401341272}
     m_Modifications:
+    - target: {fileID: 2531249353056742681, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591999613809719397, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4591999613809719397, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
@@ -3007,6 +3063,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5399886041687906074, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583490223409799680, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9210107673471004299, guid: d6a2a08e46aae38409c67b30aa289cea, type: 3}
@@ -3157,6 +3217,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1372767112028332181}
     m_Modifications:
+    - target: {fileID: 1843014681948047884, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229885862341344669, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7170862793131679703, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3237,6 +3305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8018185855666885214, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9136681955300955301, guid: c1317711d4422cf43af1ea355ef79707, type: 3}
       propertyPath: m_Name
       value: 'BowlerPanel    '
@@ -3265,7 +3337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2420411575340344404, guid: f0c8623d856557844bc451ece55004d3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2420411575340344404, guid: f0c8623d856557844bc451ece55004d3, type: 3}
       propertyPath: m_VerticalAlignment
@@ -3274,6 +3346,10 @@ PrefabInstance:
     - target: {fileID: 2420411575340344404, guid: f0c8623d856557844bc451ece55004d3, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581128462711071504, guid: f0c8623d856557844bc451ece55004d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6495673976597279844, guid: f0c8623d856557844bc451ece55004d3, type: 3}
       propertyPath: m_Pivot.x
@@ -3357,7 +3433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460790838485010117, guid: f0c8623d856557844bc451ece55004d3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
