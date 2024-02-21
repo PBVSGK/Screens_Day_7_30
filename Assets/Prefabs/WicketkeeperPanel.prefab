@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7133236259730087623}
   - component: {fileID: 4636455913222519597}
   m_Layer: 5
-  m_Name: 'WicketkeeperPanel '
+  m_Name: WicketkeeperPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
