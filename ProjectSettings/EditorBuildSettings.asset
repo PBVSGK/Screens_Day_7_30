@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Day7-30.unity
+    guid: 523ab9d8bc1c0d241a5c633302310f2a
+  - enabled: 1
     path: Assets/Scenes/Day4-15.unity
     guid: 68fd9a7de50d5264c9cc669e63554ca5
-  - enabled: 1
-    path: Assets/Scenes/Month-2_Day_1-15.unity
-    guid: b8c52fba929aaa745a2492ed5d8b8d0f
   m_configObjects: {}
